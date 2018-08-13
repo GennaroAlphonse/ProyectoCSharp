@@ -9,6 +9,13 @@ namespace Prueba
 
 public class clsEmpleados
 {
+public clsEmpleados(){
+Nombre="";
+SueldoDiario=0.0m;
+Edad=0;
+}
+
+
 public String Nombre;
 
 public decimal SueldoDiario;
