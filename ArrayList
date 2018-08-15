@@ -1,0 +1,56 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace listarreglo{
+
+public class clsMostrarArrayList{
+
+ArrayList Lista;
+
+public clsMostrarArrayList()
+{
+Lista = new ArrayList;
+}
+
+public void CapturadeDatos()
+{
+	string cadena;
+for (int=1;i<3;i++){
+
+cadena = Console.ReadLine();
+Lista.Add(cadena);
+
+}
+}
+
+public void ImprimeDatos()
+{
+foreach (var item in Lista){
+
+Console.WriteLine(item);
+}
+Console.ReadKey();
+}
+}
+
+}
+
+{
+class Program
+{
+static void Main(string[] args){
+
+clsMostrarArrayList ArrayList;
+ArrayList = new clsMostrarArrayList();
+ArrayList.CapturadeDatos();
+ArrayList.ImprimeArrayList();
+
+}
+
+
+
+}
