@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MultiArrays
+
+public class clsMatrices{
+
+private int[,]Matriz;
+
+public clsMatrices()
+{
+Matriz = new int[4,2];
+}
+
+public void InicializaMatriz()
+{
+for (int=1;i<4;i++){
+for (int=1;i<4;i++){
+Matriz[i,j]=1;
+}
+}
+}
+
+public void ImprimeMatriz()
+{
+for (int=1;i<4;i++){
+for (int=1;i<4;i++){
+Console.WriteLine("{0}",Matriz[i,j]);
+}
+Console.ReadKey();
+}
+}
+
+}
+
+{
+class Program
+{
+static void Main(string[] args){
+
+clsMatrices Matriz;
+Matriz = new clsMatrices();
+Matriz.InicializaMatriz();
+Matriz.ImprimeMatriz();
+
+}
+
+
+
+}
+
+
+}
