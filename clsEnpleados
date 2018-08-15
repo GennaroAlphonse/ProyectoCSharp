@@ -1,0 +1,37 @@
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace encapsulacion
+{
+public class clsEmpleados
+{
+Nombre="";
+SueldioDiario=0.0m;
+Edad=0;
+}
+private string _Nombre;
+public string Nombre
+{
+get { return _Nombre; };
+set { _Nombre=value; };
+}
+
+private decimal _SueldoDiario;
+public decimal SueldoDiario
+{
+get { return _SueldoDiario; };
+set { _SueldoDiario = value; };
+}
+
+private integer _Edad;
+
+public integer Edad
+{
+get { return _Edad; };
+set { _Edad=value; };
+}
+
+
+}
